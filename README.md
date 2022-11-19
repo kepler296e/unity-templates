@@ -1,11 +1,4 @@
 # Simple [Player.cs](./Scripts/Player.cs)
-
-| | Key |
-| ------------- | ------------- |
-| [Jump](#jump) | Space |
-| [Crouch](#crouch) | LeftControl |
-| [Zoom](#zoom) | LeftAlt |
-
 ## Mouse Look and Movement
 ```
 // Mouse Look
@@ -22,7 +15,6 @@ float z = Input.GetAxis("Vertical") * speed;
 float y = move.y;
 move = transform.right * x + transform.forward * z;
 ```
-
 ## Jump
 ```
 if (Input.GetKey(KeyCode.Space) && cc.isGrounded)
@@ -36,7 +28,6 @@ if (!cc.isGrounded)
     move.y = y - gravity * Time.deltaTime;
 }
 ```
-
 ## Crouch
 ```
 if (Input.GetKeyDown(KeyCode.LeftControl))
@@ -50,7 +41,6 @@ else if (Input.GetKeyUp(KeyCode.LeftControl))
     cc.height /= crouchFactor;
 }
 ```
-
 ## Zoom
 ```
 if (Input.GetKeyDown(KeyCode.LeftAlt))
