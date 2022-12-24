@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class Player : MonoBehaviour
+public class FirstPersonController : MonoBehaviour
 {
     public float walkingSpeed = 8f;
     public float runningSpeed = 12f;
