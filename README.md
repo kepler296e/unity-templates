@@ -1,4 +1,4 @@
-### [FirstPersonController.cs](./Scripts/FirstPersonController.cs)
+### [FirstPersonController.cs](./Assets/Scripts/FirstPersonController.cs)
 ```
 using UnityEngine;
 using System.Collections.Generic;
