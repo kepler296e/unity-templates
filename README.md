@@ -1,4 +1,3 @@
-## Unity Basic Scripts
 ### [FirstPersonController.cs](./Scripts/FirstPersonController.cs)
 ```
 using UnityEngine;
