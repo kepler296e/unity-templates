@@ -1,8 +1,8 @@
 ## Scripts
 ### [FirstPersonController.cs](./Assets/Scripts/FirstPersonController.cs)
 ```c#
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class FirstPersonController : MonoBehaviour
 {
